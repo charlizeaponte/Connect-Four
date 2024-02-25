@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/splashScreen">
+
+    <fragment
+        android:id="@+id/splashScreen"
+        android:name="edu.quinnipiac.ser210.connectfour.SplashScreen"
+        android:label="fragment_splash_screen"
+        tools:layout="@layout/fragment_splash_screen" >
+        <action
+            android:id="@+id/action_splashScreen_to_playboard"
+            app:destination="@id/playboard" />
+    </fragment>
+    <fragment
+        android:id="@+id/playboard"
+        android:name="edu.quinnipiac.ser210.connectfour.Playboard"
+        android:label="fragment_playboard"
+        tools:layout="@layout/fragment_playboard" >
+        <argument
+            android:name="PlayerName"
+            app:argType="string"
+            app:nullable="true" />
+    </fragment>
+</navigation>

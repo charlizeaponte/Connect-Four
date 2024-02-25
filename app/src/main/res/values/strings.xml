@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Connect Four</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="welcome_text">Welcome to Connect Four!!</string>
+    <string name ="instructions">Instructions:</string>
+    <string name ="rule_1">1) You will playing a game of connect four against the computer. You will play as the red cells and the computer plays as the blue cells</string>
+    <string name ="rule_2"> 2) The objective is to be the first to connect four of your own colored discs either vertically, horizontally, or diagonally.</string>
+    <string name ="rule_3">3) You are able to reset the board after the game is over by pressing the restart button</string>
+    <string name="name_entry">Enter your name:</string>
+    <string name ="playername"></string>
+    <string name ="gameConditions"></string>
+    <string name ="gameTurns"></string>
+    <string name ="start_button">Start</string>
+
+
+
+
+</resources>
